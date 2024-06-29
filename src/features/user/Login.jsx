@@ -62,7 +62,7 @@ function Login() {
             <div className='right_login col-span-1 p-16 mt-16'>
                 <img src="./logo_new.png" alt="Aloper Admin Template" className='my-0 mx-auto pb-8 w-32 ' />
                 <h2 className='text-4xl font-black mb-2 text-center pt-4 text-text_dangnhap'>Đăng nhập</h2>
-                <p className='text-center  text-gray-600 text-sm font-normal' >Quản lý nhà trọ dễ dàng với Aloper</p>
+                <p className='text-center  text-gray-600 text-sm font-normal' >Quản lý nhà trọ dễ dàng với Aloper 2</p>
                 <form onSubmit={(e) => submitForm(e)}>
 
                     <div className="mb-4 mt-8">
