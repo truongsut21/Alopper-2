@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Step 2: Rebuild the Docker image
+docker build -t react-nginx-app .
+
+
+ex: docker build -t image-aloper2 .
+
+# Step 3: Stop and remove the old container
+docker stop my-react-nginx-container
+docker rm my-react-nginx-container
+
+# Step 4: Run a new container with the updated image
+docker run -d -p 82:82 --name my-react-nginx-container react-nginx-app
+
+
+ex: docker run -d -p 82:82 --name aloper2-container image-aloper2
+
+echo "Container redeployed with the latest code."
